@@ -25,14 +25,12 @@ public class Main {
         company.add(tatiana);
         company.add(stepan);
 
-
 //        company[0] = ivan;
 //        company[1] = andrey;
 //        company[2] = evgeniy;
 //        company[3] = natalia;
 //        company[4] = tatiana;
 //        company[5] = stepan;
-
 
         for (Employee compan : company) {
             System.out.println(compan);

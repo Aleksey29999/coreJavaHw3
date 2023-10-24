@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Comparator;
+import java.util.List;
 
 //public class Employee implements Comparable <Employee> {
 public class Employee {
@@ -98,11 +99,11 @@ public class Employee {
     public void icereaseSalary(int amount) {
         this.salary += amount;
     }
-//        public static void increaser(Employee[] emp){
-//            for (int i = 0; i < emp.length ; i++) {
-//                emp[i].icereaseSalary(50);
-//            }
-//        }
+        public static void increaser(List<Employee> emp){
+            for (int i = 0; i < emp.size() ; i++) {
+                emp.get(i).icereaseSalary(50);
+            }
+        }
 //    Comparator<Employee> compareByBirth = Comparator.comparing(Employee::getBirth);
 //    @Override
 //    public int compareTo(Employee o) {
